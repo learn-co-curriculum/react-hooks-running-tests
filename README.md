@@ -126,8 +126,8 @@ Next, press the **a** key in your terminal to tell Jest to run **all** tests.
 Try getting the tests for the `Article` component to pass too! When you've
 finished, you can hit the **q** key, or **control + c** to exit Jest.
 
-## Conclusion
-
 ## Resources
+
+- [Jest][jest]
 
 [jest]: https://jestjs.io/
