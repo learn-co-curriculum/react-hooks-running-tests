@@ -45,11 +45,11 @@ the tests to run again, so you can keep the tests running as you work!
 There are a few tests defined for this lab so you can get some practice.
 
 To get started, run `npm install` (if you haven't already), then run
-`learn test`.
+`npm test` or `learn test`.
 
 You should see something like this in the output:
 
-```
+```txt
  FAIL  src/__test__/Header.test.js
   ● displays the text 'hello from the Header!'
 
@@ -105,7 +105,7 @@ Let's focus on the `Header.test.js` file first. To tell Jest to only run tests
 on this one file, press the **p** key in your terminal (this will let you filter
 out tests by their filename). In the next screen, type in `Header`:
 
-```
+```txt
 Pattern Mode Usage
  › Press Esc to exit pattern mode.
  › Press Enter to filter by a filenames regex pattern.
