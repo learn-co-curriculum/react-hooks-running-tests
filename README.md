@@ -60,7 +60,7 @@ You should see something like this in the output:
 
        8 |   render(<Header />);
        9 |
-    > 10 |   expect(screen.queryByText(/hello from the Header!/)).toBeInTheDocument();
+    > 10 |   expect(screen.queryByText("hello from the Header!")).toBeInTheDocument();
          |                                                        ^
       11 | });
       12 |
@@ -78,7 +78,7 @@ You should see something like this in the output:
 
        8 |   render(<Article />);
        9 |
-    > 10 |   expect(screen.queryByText(/please pass this test/i)).toBeInTheDocument();
+    > 10 |   expect(screen.queryByText("please pass this test")).toBeInTheDocument();
          |                                                        ^
       11 | });
       12 |
