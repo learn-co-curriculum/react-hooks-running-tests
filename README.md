@@ -34,7 +34,7 @@ terminal:
 ![jest demo](https://jestjs.io/img/blog/15-watch.gif)
 
 This command will run all tests in the `src` directory, looking for files that
-have `.test.js` in the file name (you'll typically find them in the `__test__`
+have `.test.js` in the file name (you'll typically find them in the `__tests__`
 directory for our labs).
 
 After running `learn test`, any changes you make to your components will cause
@@ -50,7 +50,7 @@ To get started, run `npm install` (if you haven't already), then run
 You should see something like this in the output:
 
 ```txt
- FAIL  src/__test__/Header.test.js
+ FAIL  src/__tests__/Header.test.js
   ● displays the text 'hello from the Header!'
 
     expect(received).toBeInTheDocument()
@@ -66,9 +66,9 @@ You should see something like this in the output:
       12 |
 
       at __EXTERNAL_MATCHER_TRAP__ (node_modules/expect/build/index.js:342:30)
-      at Object.<anonymous> (src/__test__/Header.test.js:10:56)
+      at Object.<anonymous> (src/__tests__/Header.test.js:10:56)
 
- FAIL  src/__test__/Article.test.js
+ FAIL  src/__tests__/Article.test.js
   ● displays the text 'please pass this test'
 
     expect(received).toBeInTheDocument()
@@ -84,7 +84,7 @@ You should see something like this in the output:
       12 |
 
       at __EXTERNAL_MATCHER_TRAP__ (node_modules/expect/build/index.js:342:30)
-      at Object.<anonymous> (src/__test__/Article.test.js:10:56)
+      at Object.<anonymous> (src/__tests__/Article.test.js:10:56)
 
 Test Suites: 2 failed, 2 total
 Tests:       2 failed, 2 total
@@ -113,7 +113,7 @@ Pattern Mode Usage
  pattern › Header
 
  Pattern matches 1 file
- › src/__test__/Header.test.js
+ › src/__tests__/Header.test.js
 ```
 
 Then, press the Enter key to run tests in the `Header.test.js` file only.
@@ -122,9 +122,9 @@ See if you can get this test passing by updating the code in
 `/src/components/Header.js`!
 
 Next, press the **a** key in your terminal to tell Jest to run **all** tests.
+Try getting the tests for the `Article` component to pass too!
 
-Try getting the tests for the `Article` component to pass too! When you've
-finished, you can hit the **q** key, or **control + c** to exit Jest.
+When you've finished, you can hit the **q** key to exit Jest.
 
 ## Resources
 
