@@ -15,7 +15,7 @@ this phase, and some tips for running tests.
 
 There are a number of JavaScript test frameworks out there. For testing vanilla
 JavaScript applications, one popular choice is Mocha, which we use for the tests
-in Phase 3.
+in our JavaScript labs.
 
 [Jest][jest] is another popular choice for JavaScript developers, and in
 particular the React community. Jest, like React, was developed by Facebook and
