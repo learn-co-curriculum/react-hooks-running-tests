@@ -1,15 +1,13 @@
 # Running Tests in React
 
+## Learning Goals
+
+- Use Jest to run tests on specific files
+
 ## Overview
 
 In this lab, we'll discuss how the tests are set up for other labs throughout
 this phase, and some tips for running tests.
-
-## Objectives
-
-1. Explain how tests are set up in React
-2. Use Jest to run tests on specific files
-3. Practice running tests
 
 ## Running Jest Tests
 
@@ -20,13 +18,13 @@ in our JavaScript labs.
 [Jest][jest] is another popular choice for JavaScript developers, and in
 particular the React community. Jest, like React, was developed by Facebook and
 is an open source project. You can read the docs [here][jest] if you're curious
-to learn more!
+to learn more.
 
-Jest comes preinstalled when you generate a React project using Create React
-App, so all you have to do to run tests in React labs is run `npm test`, which
-will execute the test script found in the `package.json` file. You can also run
-`learn test`, which will run the test files as well as sync your progress with
-Canvas.
+Jest comes preinstalled when you generate a React project using
+`create-react-app`, so all you have to do to run tests in React labs is run
+`npm test`, which will execute the test script found in the `package.json` file.
+You can also run `learn test`, which will run the test files as well as sync
+your progress with Canvas.
 
 Running `learn test` or `npm test` should produce an output like this in your
 terminal:
@@ -44,8 +42,8 @@ the tests to run again, so you can keep the tests running as you work!
 
 There are a few tests defined for this lab so you can get some practice.
 
-To get started, run `npm install` (if you haven't already), then run
-`npm test` or `learn test`.
+To get started, run `npm install` (if you haven't already), then run `npm test`
+or `learn test`.
 
 You should see something like this in the output:
 
@@ -122,7 +120,7 @@ See if you can get this test passing by updating the code in
 `/src/components/Header.js`!
 
 Next, press the **a** key in your terminal to tell Jest to run **all** tests.
-Try getting the tests for the `Article` component to pass too!
+Try getting the tests for the `Article` component to pass too.
 
 When you've finished, you can hit the **q** key to exit Jest.
 
