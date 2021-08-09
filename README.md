@@ -6,8 +6,8 @@
 
 ## Overview
 
-In this lab, we'll discuss how the tests are set up for other labs throughout
-this phase, and some tips for running tests.
+In this lab, we'll discuss how the tests are set up for the labs in this phase,
+and give some tips for running tests.
 
 ## Running Jest Tests
 
@@ -17,7 +17,7 @@ in our JavaScript labs.
 
 [Jest][jest] is another popular choice for JavaScript developers, and in
 particular the React community. Jest, like React, was developed by Facebook and
-is an open source project. You can read the docs [here][jest] if you're curious
+is an open source project. You can read the [jest docs][jest] if you're curious
 to learn more.
 
 Jest comes preinstalled when you generate a React project using
@@ -26,12 +26,12 @@ Jest comes preinstalled when you generate a React project using
 You can also run `learn test`, which will run the test files as well as sync
 your progress with Canvas.
 
-Running `learn test` or `npm test` should produce an output like this in your
+Running `learn test` or `npm test` should produce output like this in your
 terminal:
 
 ![jest demo](https://jestjs.io/img/blog/15-watch.gif)
 
-This command will run all tests in the `src` directory, looking for files that
+This command will run all tests in the `src` directory by looking for files that
 have `.test.js` in the file name (you'll typically find them in the `__tests__`
 directory for our labs).
 
@@ -40,7 +40,7 @@ the tests to run again, so you can keep the tests running as you work!
 
 ## Code Along
 
-There are a few tests defined for this lab so you can get some practice.
+There are a couple of tests defined for this lab so you can get some practice.
 
 To get started, run `npm install` (if you haven't already), then run `npm test`
 or `learn test`.
