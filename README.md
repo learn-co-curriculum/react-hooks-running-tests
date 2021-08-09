@@ -4,7 +4,7 @@
 
 - Use Jest to run tests on specific files
 
-## Overview
+## Introduction
 
 In this lab, we'll discuss how the tests are set up for the labs in this phase,
 and give some tips for running tests.
