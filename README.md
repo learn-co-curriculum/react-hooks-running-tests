@@ -276,3 +276,4 @@ better sense of how the test is written.
   https://testing-library.com/docs/react-testing-library/intro
 [jest-dom]: https://testing-library.com/docs/ecosystem-jest-dom
 [query methods]: https://testing-library.com/docs/queries/about#priority
+[jsdom]: https://github.com/jsdom/jsdom
