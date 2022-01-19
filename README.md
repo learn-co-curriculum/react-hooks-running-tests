@@ -2,12 +2,15 @@
 
 ## Learning Goals
 
-- Use Jest to run tests on specific files
+- Use Jest to run tests in React applications
+- Read test files and identify the purpose of test code
 
 ## Introduction
 
-In this lab, we'll discuss how the tests are set up for the labs in this phase,
-and give some tips for running tests.
+In this lab, we'll discuss how the tests are set up for the labs in a typical
+React application, and give some tips for running tests.
+
+Fork and clone this lesson using the "Fork" button above so you can code along!
 
 ## Running Jest Tests
 
@@ -17,14 +20,16 @@ in our JavaScript labs.
 
 [Jest][jest] is another popular choice for JavaScript developers, and in
 particular the React community. Jest, like React, was developed by Facebook and
-is an open source project. You can read the [jest docs][jest] if you're curious
+is an open source project. You can read the [Jest docs][jest] if you're curious
 to learn more.
 
 Jest comes preinstalled when you generate a React project using
 `create-react-app`, so all you have to do to run tests in React labs is run
 `npm test`, which will execute the test script found in the `package.json` file.
-You can also run `learn test`, which will run the test files as well as sync
-your progress with Canvas.
+
+> If you have the `learn` gem installed as part of your setup for this course,
+> you can also run `learn test`, which will run the test files _as well as_ sync
+> your progress with Canvas.
 
 Running `learn test` or `npm test` should produce output like this in your
 terminal:
@@ -35,8 +40,9 @@ This command will run all tests in the `src` directory by looking for files that
 have `.test.js` in the file name (you'll typically find them in the `__tests__`
 directory for our labs).
 
-After running `learn test`, any changes you make to your components will cause
-the tests to run again, so you can keep the tests running as you work!
+The tests are set to run in "watch mode" by default, so after running
+`npm test`, any changes you make to your components will cause the tests to run
+again. That means you can keep the tests running as you work!
 
 ## Reading Test Files
 
@@ -114,6 +120,9 @@ There are a couple of tests defined for this lab so you can get some practice.
 To get started, run `npm install` (if you haven't already), then run `npm test`
 or `learn test`.
 
+> **Pro tip**: you can use the shorthand `npm i` and `npm t` to run the install
+> and test scripts as well!
+
 You should see something like this in the output:
 
 ```txt
@@ -186,7 +195,17 @@ Pattern Mode Usage
 Then, press the Enter key to run tests in the `Header.test.js` file only.
 
 See if you can get this test passing by updating the code in
-`/src/components/Header.js`!
+`/src/components/Header.js` as follows:
+
+```jsx
+import React from "react";
+
+function Header(props) {
+  return <h1>hello from the Header!</h1>;
+}
+
+export default Header;
+```
 
 Next, press the **a** key in your terminal to tell Jest to run **all** tests.
 Try getting the tests for the `Article` component to pass too.
@@ -205,6 +224,7 @@ React Testing Library provides a nice `debug` method to give us a sense of what
 the DOM looks like when our tests are running. Let's try this out instead:
 
 ```jsx
+// src/__tests__/Article.test.js
 test("displays the text 'please pass this test'", () => {
   render(<Article />);
 
