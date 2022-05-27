@@ -20,8 +20,8 @@ in our JavaScript labs.
 
 [Jest][jest] is another popular choice for JavaScript developers, and in
 particular the React community. Jest, like React, was developed by Facebook and
-is an open source project. You can read the [Jest docs][jest] if you're curious
-to learn more.
+is an open source project. You can read the [Jest docs][jest-docs] if you're
+curious to learn more.
 
 Jest comes preinstalled when you generate a React project using
 `create-react-app`, so all you have to do to run tests in React labs is run
@@ -194,8 +194,8 @@ Pattern Mode Usage
 
 Then, press the Enter key to run tests in the `Header.test.js` file only.
 
-See if you can get this test passing by updating the code in
-`/src/components/Header.js` as follows:
+See if you can get this test passing by updating the code in `src` >
+`components` > `Header.js` as follows:
 
 ```jsx
 import React from "react";
@@ -292,6 +292,7 @@ better sense of how the test is written.
 - [Jest DOM][jest-dom]
 
 [jest]: https://jestjs.io/
+[jest-docs]: https://jestjs.io/docs/getting-started
 [react testing library]:
   https://testing-library.com/docs/react-testing-library/intro
 [jest-dom]: https://testing-library.com/docs/ecosystem-jest-dom
