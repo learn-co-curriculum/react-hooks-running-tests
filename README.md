@@ -194,8 +194,8 @@ Pattern Mode Usage
 
 Then, press the Enter key to run tests in the `Header.test.js` file only.
 
-See if you can get this test passing by updating the code in
-`/src/components/Header.js` as follows:
+See if you can get this test passing by updating the code in `src` >
+`components` > `Header.js` as follows:
 
 ```jsx
 import React from "react";
