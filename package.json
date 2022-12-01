@@ -36,5 +36,17 @@
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
     "mocha": "^8.2.1"
-  }
+  },
+  "description": "- Use Jest to run tests in React applications\r - Read test files and identify the purpose of test code",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hadizios/react-hooks-running-tests.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hadizios/react-hooks-running-tests/issues"
+  },
+  "homepage": "https://github.com/Hadizios/react-hooks-running-tests#readme"
 }
